@@ -240,7 +240,7 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
     position: relative;
-	background: #E66432;
+	background: #636363;
 	display: inline-block;
 	line-height: 1;
 	padding: 12px 20px;
@@ -314,7 +314,7 @@ textarea {
 Links
 --------------------------------------------------------------*/
 a {
-	color: #E66432;
+	color: #636363;
 }
 
 /*--------------------------------------------------------------
@@ -506,7 +506,7 @@ Content
 	color: #333;
 }
 #secondary h2.widget-title{
-	border-bottom: 1px solid #E66432;
+	border-bottom: 1px solid #636363;
 	margin-bottom: 10px;
 	line-height: 1.2;
 	font-size: 18px;
@@ -589,7 +589,7 @@ Posts and pages
 	position: absolute;
 	left: 20px;
 	top: -14px;
-	background: #E66432;
+	background: #636363;
 	width: 60px;
 	text-align: center;
 	color: #FFF;
@@ -662,7 +662,7 @@ Posts and pages
 	background: #FFF;
 	padding: 10px;
 	margin-bottom: 30px;
-	border-bottom: 3px solid #E66432;
+	border-bottom: 3px solid #636363;
 }
 .entry-thumb{
 	margin: -20px -20px 15px;
@@ -933,7 +933,7 @@ Main Header
 	z-index: 99999;
 	background: #FFF;
 	padding: 10px 0;
-	border-bottom: 3px solid #E66432;
+	border-bottom: 3px solid #636363;
 	position: relative;
 }
 #masthead.logo-top{
@@ -992,7 +992,7 @@ body.parallax-on .wpcf7-not-valid-tip{
 	padding: 5px 15px;
 }
 .main-navigation > ul > li.current a{
-	color: #E66432;
+	color: #636363;
 }
 .main-navigation a {
 	display: block;
@@ -1028,14 +1028,14 @@ body.parallax-on .wpcf7-not-valid-tip{
 	border:none;
 }
 .main-navigation li:hover > a {
-	color: #E66432;
+	color: #0097e6;
 }
 .main-navigation ul li:hover > ul {
 	display: block;
 }
 .main-navigation .current_page_item > a,
 .main-navigation .current-menu-item > a {
-	color: #E66432;
+	color: #0097e6;
 }
 /* Small menu */
 .menu-toggle {
@@ -1363,8 +1363,8 @@ Testimonial Section
 	font-family: Arial;
 }
 .testimonial-listing .bx-wrapper .bx-controls-direction a:hover{
-    background: #e66432;
-    border: 1px solid #e66432;
+    background: #636363;
+    border: 1px solid #636363;
     color:#FFF;
 }
 .testimonial-listing .bx-wrapper .bx-controls-direction a.bx-prev{
@@ -1403,7 +1403,7 @@ Portfolio Section
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	background: #E66432;
+	background: #636363;
 	border-radius: 50%;
 	font-size: 30px;
 	text-align: center;
@@ -1480,7 +1480,7 @@ Team Section
 	z-index: -1;
 }*/
 .team-image:hover, .team-image.active{
-	border: 2px solid #E66432;
+	border: 2px solid #0097e6;
 }
 .team-image img{
 	border-radius: 50%;
@@ -1615,20 +1615,20 @@ Blog Section
 }
 .blog-list .blog-excerpt{
 	padding: 0 15px 50px;
-	border-bottom: 3px solid #E66432;
+	border-bottom: 3px solid #636363;
 	position: relative;
 }
 .blog-list .blog-excerpt .posted-date{
 	font-size: 14px;
 	font-style: italic;
 	margin-bottom: 5px;
-	color: #E66432;
+	color: #636363;
 }
 .blog-list .blog-excerpt .posted-date .fa{
 	margin-right: 5px;
 }
 .blog-list .blog-excerpt span{
-	background: #E66432;
+	background: #636363;
 	color: #FFF;
 	display: inline-block;
 	position: absolute;
@@ -1740,7 +1740,7 @@ Footer Section
 	display: none;
 	height: 50px;
 	width: 50px;
-	background: #E66432;
+	background: #636363;
 	text-align: center;
 	line-height: 50px;
 	z-index: 9999;
@@ -1772,7 +1772,7 @@ Social
 	position: relative;
 }
 .social-icons a:hover{
-	background:#e66432
+	background:#0097e6
 }
 .social-icons a span{
 	background: #333;
