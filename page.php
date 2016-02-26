@@ -48,7 +48,9 @@ if(of_get_option('enable_parallax') == 1 && is_front_page() && get_option( 'show
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+<?php //get_sidebar();
+?>
+
 </div>
 <?php } ?>
 
