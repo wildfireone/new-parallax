@@ -665,8 +665,6 @@ Posts and pages
 	border-bottom: 3px solid #636363;
 }
 .entry-thumb{
-	/*added to remove thumb*/
-	height:0px;
 	margin: -20px -20px 15px;
 	text-align: center;
 }
