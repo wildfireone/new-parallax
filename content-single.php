@@ -10,7 +10,7 @@ $post_date_class = ((!empty($post_date) && $post_date == ' ') || has_post_thumbn
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php if(has_post_thumbnail()) : ?>
+		<?php if(false) : ?>
 		<div class="entry-thumb">
 			<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'blog-header' ); ?>
 			<img src="<?php echo $image[0]; ?>" alt="<?php echo get_the_title(); ?>"> 
