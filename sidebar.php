@@ -5,7 +5,8 @@
  * @package accesspress_parallax
  */
 
-if ( ! is_active_sidebar( 'sidebar-1' ) ) {
+if(true){
+//if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 	return;
 }
 ?>
