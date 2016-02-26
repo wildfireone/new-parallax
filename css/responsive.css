@@ -119,7 +119,7 @@ Responsive CSS
 		margin-right: 0;
 	}
 	.blog-listing .blog-list{
-		width: 80%;
+		width: 100%;
 		margin: 0 auto 20px;
 		float: none;
 		display: block;
