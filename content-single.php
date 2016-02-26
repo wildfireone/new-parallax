@@ -18,10 +18,11 @@ $post_date_class = ((!empty($post_date) && $post_date == ' ') || has_post_thumbn
 		<?php endif; ?>
 		
 		<h1 class="entry-title<?php echo $post_date_class; ?>"><?php the_title(); ?></h1>
-
+		<?php if(false) : ?>
 		<div class="entry-meta">
 			<?php accesspress_parallax_posted_on(); ?>
 		</div><!-- .entry-meta -->
+		<?php endif; ?>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
