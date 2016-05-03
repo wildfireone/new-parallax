@@ -22,6 +22,7 @@
                         $i = $i + 0.25;
                         ?>
 				<div class="team-member">
+					<div class="team-img">
 				<?php if(has_post_thumbnail()) : 
 					$image = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()),'thumbnail');
 				?>
@@ -29,6 +30,7 @@
 				<?php else: ?>
 				<img src="<?php echo get_template_directory_uri(); ?>/images/dummy.png" alt="<?php the_title(); ?>">
 				<?php endif; ?>
+				</div>
 				<div class="team-detail">
  -					<h3><?php the_title(); ?></h3>
  -					<?php the_content(); ?>
