@@ -1509,10 +1509,9 @@ Team Section
 	width: 50%;
 }
 .team-member{
- 	display: inline-block;
  	width: 50%;
  	margin: 10px;
- 	border: 1px solid #73AD21;  
+ 	border-bottom: 1px solid #fff;  
 }
 .team-img{
 	width:50%;
