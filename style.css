@@ -1505,8 +1505,12 @@ Team Section
 	padding: 3px;
 }
 .team-detail{
+	float: right;
+	width: auto;
+}
+.team-thumb{
 	float: left;
-	width: 62%;
+	width: auto;
 }
 .team-detail h3{
 	font-size: 30px;
