@@ -15,7 +15,7 @@
 		$query = new WP_Query($args);
 		if($query->have_posts()): ?>
 		<div class="team-tab">
-			<div class="team-slider">
+			<!--<div class="team-slider">-->
 			<?php 
 				$i = 0;
                     while ($query->have_posts()): $query->the_post();
@@ -38,7 +38,7 @@
 			<?php
 				endwhile;
 				wp_reset_postdata(); ?>
-			</div>
+			<!--</div>-->
 		</div>
 		<?php
 		endif;
