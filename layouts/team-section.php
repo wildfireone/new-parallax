@@ -21,15 +21,14 @@
                     while ($query->have_posts()): $query->the_post();
                         $i = $i + 0.25;
                         ?>
-
+				<div class="team-detail">
 				<?php if(has_post_thumbnail()) : 
-				$image = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()),'thumbnail');
+					$image = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()),'thumbnail');
 				?>
 				<img src="<?php echo $image[0]; ?>" alt="<?php the_title(); ?>">
 				<?php else: ?>
 				<img src="<?php echo get_template_directory_uri(); ?>/images/dummy.png" alt="<?php the_title(); ?>">
 				<?php endif; ?>
-				<div class="team-detail">
  -					<h3><?php the_title(); ?></h3>
  -					<?php the_content(); ?>
  -				</div>
