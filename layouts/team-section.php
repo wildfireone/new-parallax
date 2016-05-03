@@ -22,7 +22,6 @@
                         $i = $i + 0.25;
                         ?>
 
-			<a id="team-<?php echo get_the_ID(); ?>" href="#" class="clearfix team-image wow fadeInLeft" data-wow-delay="<?php echo $i; ?>s">
 				<?php if(has_post_thumbnail()) : 
 				$image = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()),'thumbnail');
 				?>
@@ -30,7 +29,11 @@
 				<?php else: ?>
 				<img src="<?php echo get_template_directory_uri(); ?>/images/dummy.png" alt="<?php the_title(); ?>">
 				<?php endif; ?>
-			</a>
+				<div class="team-detail">
+ -					<h3><?php the_title(); ?></h3>
+ -					<?php the_content(); ?>
+ -				</div>
+			
 
 			<?php
 				endwhile;
