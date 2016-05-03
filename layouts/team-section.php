@@ -40,41 +40,6 @@
 		<?php
 		endif;
 		?>
-
-		<?php 
-		$args = array(
-			'cat' => $category,
-			'posts_per_page' => -1
-			);
-		$query = new WP_Query($args);
-		if($query->have_posts()): ?>
-		<div class="team-content wow fadeIn" data-wow-delay="1.5s">
-		<?php 
-			while($query->have_posts()): $query->the_post();
-		?>
-
-		<div class="clearfix team-list team-<?php echo get_the_ID(); ?>">
-			<?php if(has_post_thumbnail()) : 
-			$image = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()),'team-thumbnail');
-			?>
-			<div class="team-big-image">
-			<img src="<?php echo esc_url($image[0]); ?>" alt="<?php the_title(); ?>">
-			</div>
-			<?php endif; ?>
-
-			<div class="team-detail">
-				<h3><?php the_title(); ?></h3>
-				<?php the_content(); ?>
-			</div>
-		</div>
-
-		<?php
-			endwhile;
-			wp_reset_postdata(); ?>
-		</div>
-		<?php
-		endif;
-		?>
 	</div><!-- #primary -->
 
 
