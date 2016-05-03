@@ -1505,16 +1505,19 @@ Team Section
 	padding: 3px;
 }
 .team-detail{
-	float: right;
-	width: 50%;
+	
 }
 .team-member{
- 	width: 50%;
+	margin: 10px;
+	width: 300px;
+	border-bottom: 1px solid #fff;
+	display: inline-block;
  	margin: 10px;
+ 	padding-bottom:5px;
  	border-bottom: 1px solid #fff;  
 }
 .team-img{
-	width:50%;
+	
 }
 .team-thumb{
 	float: left;
