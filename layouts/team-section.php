@@ -32,9 +32,9 @@
 				<?php endif; ?>
 				</div>
 				<div class="team-detail">
- -					<h3><?php the_title(); ?></h3>
+ 					<h3><?php the_title(); ?></h3>
  -					<?php the_content(); ?>
- -				</div>
+ 				</div>
  				</div>
 			
 
