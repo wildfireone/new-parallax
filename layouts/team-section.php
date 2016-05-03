@@ -29,10 +29,10 @@
 				<?php else: ?>
 				<img src="<?php echo get_template_directory_uri(); ?>/images/dummy.png" alt="<?php the_title(); ?>">
 				<?php endif; ?>
-				<!--<div class="team-detail">-->
+				<div class="team-details">-->
  -					<h3><?php the_title(); ?></h3>
  -					<?php the_content(); ?>
- -				<!--</div>-->
+ -				</div>-->
  				</div>
 			
 
