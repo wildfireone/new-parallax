@@ -1516,8 +1516,9 @@ Team Section
  	padding-bottom:5px;
  	border-bottom: 1px solid #fff;  
 }
-.team-img{
-	
+.team-img img{
+	width:200px;
+	height:200px;
 }
 .team-thumb{
 	float: left;
