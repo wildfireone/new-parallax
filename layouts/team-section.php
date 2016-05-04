@@ -26,7 +26,7 @@
 				<?php if(has_post_thumbnail()) : 
 					$image = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()),'thumbnail');
 				?>
-				<img src="<?php echo $image[0]; ?>" alt="<?php the_title(); ?>">
+				<img src="<?php echo $image[0]; ?>" alt="<?php the_title(); ?> width="200" height="200">
 				<?php else: ?>
 				<img src="<?php echo get_template_directory_uri(); ?>/images/dummy.png" alt="<?php the_title(); ?>">
 				<?php endif; ?>
